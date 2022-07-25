@@ -1,0 +1,41 @@
+version: 2
+
+sources:
+  - name: tpch_sample
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF{{ var('tpch_size', 10) }}
+    tables:
+      - name: LINEITEM
+      - name: CUSTOMER
+      - name: ORDERS
+      - name: PARTSUPP
+      - name: SUPPLIER
+      - name: PART
+      - name: NATION
+      - name: REGION
+
+models:
+  - name: t_link_transactions
+    columns:
+      - name: TRANSACTION_PK
+        tests:
+          - unique
+          - not_null
+  - name: sat_region
+    columns:
+      - name: REGION_PK
+        tests:
+          - unique
+          - not_null
+  - name: sat_nation
+    columns:
+      - name: NATION_PK
+        tests:
+          - unique
+          - not_null
+  - name: dim_nation_region
+    columns:
+      - name: NATION_PK
+        tests:
+          - unique
+          - not_null

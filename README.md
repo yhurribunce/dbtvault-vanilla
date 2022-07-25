@@ -1,20 +1,29 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/25080503/65772647-89525700-e132-11e9-80ff-12ad30a25466.png">
+</p>
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+### dbt models for dbtvault Snowflake Demonstration
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+This is a downloadable example dbt project using [dbtvault](https://github.com/Datavault-UK/dbtvault) to create a Data Vault 2.0 Data Warehouse
+based on the Snowflake TPC-H dataset.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+---
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+#### dbtvault Docs
+[![Documentation Status](https://readthedocs.org/projects/dbtvault/badge/?version=latest)](https://dbtvault.readthedocs.io/en/latest/?badge=latest)
+
+Click the button above to read the latest dbtvault docs.
+
+A guide for using this demo is available [here](https://dbtvault.readthedocs.io/en/latest/worked_example/we_worked_example/)
+
+---
+[dbt](https://www.getdbt.com/) is a registered trademark of [Fishtown Analytics](https://www.fishtownanalytics.com/).
+
+Check them out below:
+
+#### DBT Docs
+- [What is dbt](https://dbt.readme.io/docs/overview)?
+- Read the [dbt viewpoint](https://dbt.readme.io/docs/viewpoint)
+- [Installation](https://dbt.readme.io/docs/installation)
+- Join the [chat](http://ac-slackin.herokuapp.com/) on Slack for live questions and support.
+---

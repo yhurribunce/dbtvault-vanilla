@@ -6,6 +6,9 @@ target/
 .idea/
 
 dbt_modules
+
 dbt_packages
+
 logs
+
 *.bak
